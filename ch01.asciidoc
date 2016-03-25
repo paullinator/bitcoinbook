@@ -179,14 +179,17 @@ In addition to these various sites and applications, most bitcoin wallets will a
 ((("bitcoin","sending/receiving", id="ix_ch01-asciidoc1", range="startofrange")))
 Alice has decided to convert $10 US dollars into bitcoin, so as not to risk too much money on this new technology. She gives Joe $10 in cash, opens her Mycelium wallet application and selects +Receive+. This displays a QR code with Alice's first bitcoin address. 
 
-Joe then selects +Send+ on his smartphone wallet and is presented with a screen containing two inputs:
+Joe then selects +Send+ on his smartphone wallet and is presented with a camera screen ready to scan a QR code.
+This allows Joe to scan the QR code with his smartphone camera so that he doesn't have to type in Alice's bitcoin address, which is quite long and difficult to type. Joe then scans the QR code displayed on Alice's smartphone.
 
-* A destination bitcoin address
-* The amount to send, in bitcoin (BTC) or his local currency (USD)
+Joe now has Alice's bitcoin address set as the recipient. 
 
-In the input field for the bitcoin address, there is a small icon that looks like a QR code. This allows Joe to scan the barcode with his smartphone camera so that he doesn't have to type in Alice's bitcoin address, which is quite long and difficult to type. Joe taps the QR code icon and activates the smartphone camera, scanning the QR code displayed on Alice's smartphone.
+Joe is then presented with two input fields:
 
-Joe now has Alice's bitcoin address set as the recipient. Joe enters the amount as $10 US dollars and his wallet converts it by accessing the most recent exchange rate from an online service. The exchange rate at the time is $100 US dollars per bitcoin, so $10 US dollars is worth 0.10 bitcoin (BTC), or 100 milli-bitcoins (mBTC) as shown in the screenshot from Joe's wallet (see <<airbitz-mobile-send>>).
+* An amount to send in bitcoin (BTC)
+* An amount to send in his local currency (USD)
+
+Joe enters the amount as $10 US dollars and his wallet converts it by accessing the most recent exchange rate from an online service. The exchange rate at the time is $100 US dollars per bitcoin, so $10 US dollars is worth 0.10 bitcoin (BTC), or 100 milli-bitcoins (mBTC) as shown in the screenshot from Joe's wallet (see <<airbitz-mobile-send>>).
 
 [[airbitz-mobile-send]]
 .Airbitz mobile bitcoin wallet send screen 
